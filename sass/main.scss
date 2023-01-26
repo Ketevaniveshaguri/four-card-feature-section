@@ -41,13 +41,19 @@ body {
   &__regular-header {
     color: #4d4f62;
     font-weight: 200;
-    // font-size: 3.6rem;
+      @media only screen and (max-width: 1200px) {
+      line-height:2;
+    }
+    
   }
   &__header-bold {
     font-size: 5rem;
     // font-size: 3rem;
     color: #4d4f62;
     font-weight: 600;
+      @media only screen and (max-width: 1200px) {
+      line-height:2;
+    }
   }
   &__paragraph-container {
     display: flex;
