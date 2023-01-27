@@ -30,14 +30,14 @@ body {
     font-weight: 200; }
  @media only screen and (max-width: 1200px) {
       .section-first__regular-header {
-        line-height:2; } }
+        line-height:1.8; } }
   .section-first__header-bold {
     font-size: 5rem;
     color: #4d4f62;
     font-weight: 600; }
  @media only screen and (max-width: 1200px) {
-      .section-first__regular-header {
-        line-height:2; } }
+      .section-first__header-bold {
+        line-height:1.8; } }
   .section-first__paragraph-container {
     display: flex;
     justify-content: center; }
